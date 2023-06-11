@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Jasmin's Machtbereich</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../css/styles.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Vorlesung 1</span>
+        <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../assets/img/me.JPG" alt="..." /></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.html#about">Über mich</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Vorlesung1.html">Vorlesung 1</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Vorlesung2.html">Vorlesung 2</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Vorlesung34.html">Vorlesung 3&4</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Vorlesung5.html">Vorlesung 5</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Vorlesung6.html">Vorlesung 6</a></li>
+
+        </ul>
+    </div>
+</nav>
+<!-- Page Content-->
+
+<!-- Experience-->
+<section class="resume-section" id="Vorlesung3">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Die fünfte Vorlesung</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">Tomcat Server</h3>
+                <p>Da wir uns mit Java Servlets beschäftigt haben, haben wir Tomcat implementiert. Tomcat ist ein Webserver/Servlet Container, damit können wir in einer Webserverumgebung Java Code ausführen. Als „Übung“ oder How-to haben wir dann gemeinsam in einer Session Tomcat installiert/laufen lassen, wie das geht, habe ich durch die folgenden Tutorials gesehen:
+                <br><a href="https://wolfpaulus.com/tomcat/">Tomcat Tutorial</a>
+                <br><a href="https://www.youtube.com/watch?v=2KD7L8j1tio&t=326s">YouTube Tomcat Tutorial</a> </p>
+                <h3 class="mb-0">Die Get- und Post-Methode</h3>
+                <p>
+                    Die Kommunikation zwischen Server und Clientseitig
+                    <br>Wie funktionierte das nochmal: Der Client sendet eine HTTP-Anfrage (mit einer HTTP-Methode) und bekommt eine HTTP-Antwort. Die Methoden, die man dafür am meisten nutzt sind Get und Post!
+                    <br>Dabei ist die Get-Methode „nur“ ein Aufruf (sowie das Zurücksenden einer Datenressource) und die Post-Methode sendet dazu noch Benutzerdaten und man kann Formulardaten an den Server senden.
+                    <br>Wann benutze ich Get und wann Post? Eigentlich Simpel:
+                    <br>Man nutzt die Get-Methode immer, außer man will einen längeren Text im Suchfeld eingeben, sensible Daten wie Passwörter senden oder kein Lesezeichen für das Formular anlegen.
+                </p>
+                <h3 class="mb-0">Apache</h3>
+                <p>
+                    Apache ist ein Open-Source Webserver (ein sehr bekannter dazu). Der Apache HTTP Server ist ein leistungsstarker Webserver, der auf verschiedenen Betriebssystemen wie Linux, Windows, macOS und anderen läuft. Der Server unterstützt verschiedene Protokolle wie HTTP, HTTPS, FTP und mehr. Der Apache HTTP Server ermöglicht es, Websiten, dynamische Inhalte und verschiedene Arten von Webanwendungen zu hosten. Es gibt auch Erweiterungen wie Verschlüsselungen, Virtual Hosting, Skriptsprachenunterstützung und mehr.
+                    <br>Dazu gibt es auch die Apache Software Foundation, was eine gemeinnützige Organisation ist, die viele Open-Source Projekte entwickelt. Dazu gehören auch Tomcat (das ist ein Java-Servlet-Container, siehe oben), Maven, Spark und viele andere.
+                </p>
+                <h3 class="mb-0">Übung Servlet</h3>
+                <p>
+                    Diese Übung haben wir am Ende der 5. Vorlesung aber auch in der 6. Vorlesung behandelt, da sie länger dauert und ein paar kniffelige Stellen hat, also kann es manchmal etwas dauern, bis diese Übung funktioniert.
+                    <br>Ich werde hier mal die Details einsparen um komme zum Punkt: Wir installieren erstmal Tomcat richtig und „bringen es“ im localhost:8080 im Browser zum laufen. Jedenfalls sollte, wenn man in der URL-Leiste im Browser localhost:8080 eingibt und Enter drückt, die Tomcat Website erscheinen.
+                    <br>Danach legen wir ein Dateipfad an, so wie er in der Übung steht und können damit und mit einem Befehl in der Kommandozeile unsere gerade geschriebene (oder von der Tafel abgeschriebene) Datei von eine .java Datei in eine .class Datei umwandeln. Erkennt man als Laie auch an der Kaffeetasse. Diese Datei, zusammen mit der heruntergeladenen (und leicht abgeänderten) web.xml Datei, packen wir jetzt in das Tomcat Verzeichnis unter webapps und verschachteln sie dort in Unterordner wie gezeigt.
+                    <br>Öffnen wir jetzt localhost:8080 im Browser, sieht das so aus:
+                    <br><img src="Servlet.png">
+                    <br>Diese Übung hat mich seelisch und moralisch an meine Grenzen gebracht. Alles für die Katz’, aber diesmal im wahrsten Sinne des Wortes.
+                    <br><img src="Tomcat1.png">
+                    <br><img src="Tomcat2.png">
+                    <br>
+                </p>
+            </div>
+
+        </div>
+
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="../js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Jasmin's Machtbereich</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../css/styles.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Vorlesung 1</span>
+        <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../assets/img/me.JPG" alt="..." /></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.html#about">Über mich</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Vorlesung1.html">Vorlesung 1</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Vorlesung2.html">Vorlesung 2</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Vorlesung34.html">Vorlesung 3&4</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Vorlesung5.html">Vorlesung 5</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Vorlesung6.html">Vorlesung 6</a></li>
+
+        </ul>
+    </div>
+</nav>
+<!-- Page Content-->
+
+<!-- Experience-->
+<section class="resume-section" id="Vorlesung3">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Die dritte und vierte Vorlesung</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">Threads</h3>
+                <p>Threads sind unabhängige Ausführungseinheiten innerhalb eines Programms, die gleichzeitig arbeiten können. Durch sie kann man Aufgaben parallel ausführen und damit die Effizienz des Programmes verbessern! Threads teilen sich den Speicherbereich eines Prozesses. Sie können verschiedene Zustände annehmen:
+                </p>
+                <h3 class="mb-0">Neu, Lauffähig, Laufend</h3>
+                <p><img src="Threads1.png"><br>
+                    Hier sieht man die verschiedenen Zustände, die die Threads annehmen können. Neu, Laufbereit, Laufend und Blockiert auf Deutsch. Der neue Thread kann gestartet werden, wodurch er dann „aktiv“ ist und dann ausgeführt werden kann, indem er in den Laufend Zustand gebracht wird. Threads die gerade nicht lauffähig sind, sind blockiert.
+                <br><img src="Threads2.png"></p>
+                <h3 class="mb-0">Thread Scheduler</h3>
+                <p>Der Thread Scheduler versetzt lauffähige Threads in den laufenden Zustand. Der Thread Scheduler entscheidet, welcher Thread ausgeführt wird und für wie lange, basierend z.B. auf Prioritäten. Ziel von ihm ist es, den Prozessor so effizient wie möglich zu nutzen, man kann den Scheduler aber nicht kontrollieren, daher schreiben wir dazu unabhängige Programme, die Threads in den Zustand blockiert bringen können, sodass sie kurz aussetzen.</p>
+                <h3 class="mb-0">Übung Thread Testlauf</h3>
+                <p>
+                    Hier haben wir eine Übung mit Threads gemacht:
+                    <br><img src="ThreadTestlauf1.png">
+                    <br><img src="ThreadTestlauf2.png">
+                </p>
+                <h3 class="mb-0">Nebenläufigkeitsprobleme</h3>
+                <p>Nebenläufigkeitsprobleme sind ein Beispiel von Threadproblemen. Dabei geht es darum, dass zwei Objekte auf die gleiche Datei zugreifen wollen, wodurch die Daten verändert werden.
+                    <br>In der Vorlesung hatten wir das Beispiel von Reiner und Monika: Sie wollen beide Geld vom gemeinsamen Konto abheben, bei der Transaktion schläft Reiner aber ein, sodass beide denken, sie haben den Anfangsbestand auf dem Konto zur Verfügung, dann kann es passieren, dass das Konto überzogen wird, weil beide gleichzeitig Geld abheben.
+                    <br>Als Lösung könnte man alle neuen Transaktionen blocken, wenn noch eine gerade durchgeführt wird. In Java nutzt man dafür „synchronized“. Nur ein Thread kann auf eine Methode zu einer Zeit zugreifen. </p>
+                <h3 class="mb-0">Deadlocks</h3>
+                <p>Dazu gibt es auch noch Deadlocks als Threadprobleme, synchronisierte Methoden blockieren sich gegenseitig. Mehr dazu im Bild unten:
+                    <br><img src="Deadlocks.png">
+                <h3 class="mb-0">Erzeuger/Verbaucher-Problem</h3>
+                <p>Zu allerletzt gibt es noch das Erzeuger/Verbraucher Threadproblem. Zwei Threads tauschen Daten aus, der „Verbraucher“ will schon auf eine Datei zugreifen, die es aber noch nicht gibt oder noch aktualisiert werden muss. Dabei werden die Daten verändert. Die Kommunikation zwischen den Threads, wie durch die Methoden wait, join und notify, ermöglichen es den Threads untereinander sich auszutauschen.
+                <h3 class="mb-0">Abgabe Chat-Server</h3>
+                
+                <p>Unsere Übung war dieses Mal einen Chat-Server aufzubauen. Et voila:
+                    <br><img src="Chatserver1.png">
+                    <br><img src="Chatserver2.png">
+                    <br><img src="Chatserver3.png">
+                    <br><img src="Chatserver4.png">
+                </p>
+            </div>
+
+        </div>
+
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="../js/scripts.js"></script>
+</body>
+</html>
