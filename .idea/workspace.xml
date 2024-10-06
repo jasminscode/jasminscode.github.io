@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12437b33-c101-41b2-bb93-38d1f495bcfe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/profile1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -26,10 +27,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2JKPgxTE1Nh1Izzo4rcejmRDJ4O" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/jasmin/Documents/GitHub/jasminscode.github.io/Verteilte Systeme",
+    "last_opened_file_path": "/Users/jasmin/Documents/GitHub/jasminscode.github.io/assets/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,6 +58,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/Verteilte Systeme" />
     </key>
   </component>
@@ -85,7 +87,8 @@
       <workItem from="1685991026059" duration="596000" />
       <workItem from="1686351342185" duration="438000" />
       <workItem from="1686442529561" duration="3000" />
-      <workItem from="1714119056145" duration="2298000" />
+      <workItem from="1714119056145" duration="3502000" />
+      <workItem from="1728249364201" duration="365000" />
     </task>
     <servers />
   </component>
